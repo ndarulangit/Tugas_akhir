@@ -34,11 +34,11 @@
               <span class="pull-right label label-default sticky-bottom" id="count_message"></span>
       </div>
   </div>
+  <div class="container">
+    <div class="d-flex flex-row-reverse">
+      <button class="btn btn-success mr-3" type="submit" id="btn_load">Mulai</button>
+    </div>
 </form>
-<div class="container">
-  <div class="d-flex flex-row-reverse">
-    <button class="btn btn-success mr-3" type="submit" id="btn_load">Mulai</button>
-  </div>
   <form action="/home/upload_file" method="post" enctype="multipart/form-data">
   <div class="form-group mb-3 ml-3 d-flex d-flex-row">
     <label for="file_browse">

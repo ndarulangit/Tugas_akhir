@@ -40,7 +40,7 @@ token_list = tokens_without_stopword
 output = [(stemmer.stem(token))for token in token_list]
 print(output)
 
-string = ' '.join([str(item)for item in output])
+string = ''.join([str(item)for item in output])
 
 # print (string)
 

@@ -17,7 +17,6 @@ Route::get('/', 'PagesController@landing');
 Route::get('/home', 'PagesController@home');
 Route::post('/home/upload_file', 'UploadController@upload_file');
 Route::get('/home/upload_file', 'UploadController@upload_file');
-Route::get('/test', 'PreprocessController@preprocessing');
-// Route::get('/home', 'UploadController@upload_file');
+Route::get('/login', 'PagesController@login');
 
 
