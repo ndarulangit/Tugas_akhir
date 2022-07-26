@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>@yield('title')</title>
-  
+    
+    <link rel="icon" href="{{asset ('img/brand/pd.png')}}" type="image/png">
+    
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css">
@@ -26,18 +28,13 @@
   @yield('style')
 </head>
 <body>
+@yield('nav')
 <!-- Header -->
 <nav class="navbar navbar-main navbar-expand-lg bg-primary navbar-dark top-0 shadow py-3">
     <div class="container">
-    <a class="navbar-brand mr-lg-3" href="{{url('/test')}}">
-        <img src="{{asset ('img/brand/pd.png')}}">
+    <a class="navbar-brand mr-lg-3" href="{{url('/home')}}">
+        <img src="{{asset ('img/brand/pd.png')}}"><span class="ml-3" style="opacity:85%;">Plagiat Detektor</span>
       </a>
-        <a class="navbar-brand" href="{{url('/home')}}" style="opacity: 85%;">Plagiat Detektor</a>
-        <div class="collapse navbar-collapse" id="navbar-default">
-            <div class="navbar-collapse-header">
-                </div>
-            </div>
-        </div>
     </div>
 </nav>
 

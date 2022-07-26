@@ -6,7 +6,7 @@ textarea {
     color: grey;
     opacity: 80%;
     background-color: smoke;
-    margin-top: -10px;
+    margin-top: 15px;
     margin-right: 18px;
     z-index: inherit;
   }
@@ -17,4 +17,3 @@ textarea {
 #file_browse{
     margin-top: -30px;
 }
-    
